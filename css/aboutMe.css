@@ -1,0 +1,16 @@
+.aboutMe__photo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border-radius: 50% 0%;
+    padding: 15px;
+}
+
+.aboutMe__content--color {
+    color: #8e04f0;
+}
+
+.aboutMe {
+    text-align: justify;
+}

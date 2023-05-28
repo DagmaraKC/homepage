@@ -1,0 +1,27 @@
+.navigation {
+    box-shadow: 0px 5px 5px 0px #adb9ba;
+    padding: 10px 25px;
+}
+
+.navigation__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: #252525;
+}
+
+.navigation__link--dark {
+    color: white;
+}
+
+.navigation__link:hover {
+    color: #2196f3;
+}
+
+.navigation__link:focus {
+    color: #252525;
+}

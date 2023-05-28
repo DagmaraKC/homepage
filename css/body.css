@@ -1,0 +1,16 @@
+.body {
+    display: block;
+    max-width: 1000px;
+    margin: auto;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+
+.body__background--light {
+    color: #252525;
+}
+
+.body__background--dark {
+    background-color: #252525;
+    color: white;
+}

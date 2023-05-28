@@ -1,0 +1,11 @@
+.footer__link {
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: #2196f3;
+}
+
+.footer__link:focus {
+    color: #252525;
+}

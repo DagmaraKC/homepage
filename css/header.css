@@ -1,0 +1,15 @@
+.header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.header__button {
+    background-color: #2196f35e;
+    border-radius: 8px;
+    /* border: none; */
+    border-color: white;
+    padding: 15px;
+    display: block;
+    margin: auto;
+}
