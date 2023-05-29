@@ -1,0 +1,27 @@
+.topElement {
+    box-shadow: 0px 5px 5px -5px #898586;
+    padding: 10px 25px;
+}
+
+.topElement__flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.topElement__button-flex {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.topElement__navigation-flex {
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.topElement__button {
+    background-color: #2196f35e;
+    border-radius: 8px;
+    border-color: white;
+    padding: 15px;
+    display: block;
+    margin: auto;
+}

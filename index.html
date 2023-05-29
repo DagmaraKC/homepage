@@ -22,6 +22,7 @@
         <link href="css/footer.css" rel="stylesheet" />
         <link href="css/table.css" rel="stylesheet" />
         <link href="css/navigation.css" rel="stylesheet" />
+        <link href="css/topElement.css" rel="stylesheet" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -31,10 +32,11 @@
         <script defer src="js/script.js"></script>
     </head>
     <body class="body body__background--light js-lightBackground">
-        <button class="header__button js-backgroundButton">
+        <container class="topElement topElement__flex">
+        <button class="topElement__button topElement__button-flex js-backgroundButton">
             Włącz ciemny motyw
         </button>
-        <nav class="navigation">
+        <nav class="navigation topElement__navigation-flex">
             <ul class="navigation__list">
                 <li>
                     <a class="navigation__link js-navigation" href="#kim-jestem"
@@ -57,23 +59,16 @@
                     <a
                         class="navigation__link js-navigation"
                         href="#umiejętności-twarde"
-                        >Umiejętności twarde</a
+                        >Umiejętności</a
                     >
                 </li>
-                <li>
-                    <a
-                        class="navigation__link js-navigation"
-                        href="#umiejętności-miękkie"
-                        >Umiejętności miękkie</a
-                    >
-                </li>
-                <li>
                     <a class="navigation__link js-navigation" href="#kontakt"
                         >Kontakt</a
                     >
                 </li>
             </ul>
         </nav>
+    </container>
         <header class="header header__flex">
             <container>
             <h1>Dagmara Kot-Czerzniewska</h1>
