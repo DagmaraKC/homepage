@@ -4,6 +4,8 @@
     margin: auto;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
+    word-break: break-word;
+    padding: 15px;
 }
 
 .body__background--light {
@@ -13,4 +15,8 @@
 .body__background--dark {
     background-color: #252525;
     color: white;
+}
+
+.body__header {
+    text-align: center;
 }
