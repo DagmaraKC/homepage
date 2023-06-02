@@ -1,26 +1,19 @@
-# Witaj na mojej pierwszej stronie
-
-Widzisz przed sobą mój pierwzy projekt z wykorzystaniem HTML CSS i JS.
-Efekt końcowy możesz zobaczyć pod poniższym linkiem:
-https://dagmarakc.github.io/homepage/
+# Homepage
 
 ![Dagmara Kot-Czerzniewska](/photo/DKC.png)
 
-Strona jest nadal w budowie, więc będzie ewoluowała wraz z moimi umiejętnościami kodowania.
+## Demo
+https://dagmarakc.github.io/homepage/
 
-## Co się na niej znajduje
+This is my first website created during the YouCode course. Still evolving with my skills and knowledge
 
-W tej chwili strona jest podzielona na kilka sekcji:
--kim jestem
--doświadczenie
--edukacja
--umiejętności
--kontakt
+## Technology used:
+- HTML
+- CSS (BEM convention)
+- JavaScript
+- Normalize
 
-Wszystkie sekcje ostylowane są w oddzielnych plikach, zgodnie z konwencją BEM.
+## Function
 
-W górnej belce znajduje się button, do którego zakodowano akcję w JS. Przycisk zmienia motyw strony na ciemny.
-
-## Jak będzie wyglądała
-
-Docelowo strona będzie moją elektroniczną wizytówką z CV w dwóch wersjach językowych. Dwie główne sekcje (main i aside) będą w układzie pionowym.
+There is a button here that changes the theme of the page to dark (page background and font) for easier reception in the evening.
+The same button changes its content depending on the enabled theme.
