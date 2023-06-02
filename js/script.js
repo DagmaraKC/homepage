@@ -3,8 +3,7 @@
         console.log("Witaj w moim kodzie :)");
     };
 
-    const OnChangeThemeClick = () => {
-        const backgroundButton = document.querySelector(".js-backgroundButton");
+    const onChangeThemeClick = (backgroundButton) => {
         const navigation = document.querySelector(".js-navigation");
         const body = document.querySelector(".body");
 
@@ -20,7 +19,7 @@
 
     const init = () => {
         const backgroundButton = document.querySelector(".js-backgroundButton");
-        backgroundButton.addEventListener("click", OnChangeThemeClick);
+        backgroundButton.addEventListener("click", onChangeThemeClick);
         welcome();
     };
 
