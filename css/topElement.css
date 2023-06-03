@@ -16,7 +16,6 @@
 
 .topElement__navigation-flex {
     flex-grow: 2;
-    flex-shrink: 0;
     flex-wrap: wrap;
 }
 .topElement__button {

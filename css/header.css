@@ -2,6 +2,7 @@
     padding-top: 15px;
     padding-bottom: 15px;
     text-align: center;
+    word-break: break-word;
 }
 
 .header__flex {

@@ -13,4 +13,5 @@
 
 .aboutMe {
     text-align: justify;
+    word-break: break-word;
 }
